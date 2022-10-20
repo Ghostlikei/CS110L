@@ -28,21 +28,21 @@ Created on 9/29
 
 ### Lectures
 
-#01: Welcome to CS 110L(Finished)
-#02: Memory Safety(Finished)
-#03: Error Handling(Finished)
-#04: Object Oriented Rust(Finished)
-#05: Traits and Generics(Finished)
-#06: Smart Pointers(Finished)
-#07: Pitfalls in Multiprocessing
-#08: Google Chrome
-#09: Intro to Multithreading
-#10: Shared Memory
-#11: Synchronization
-#12: Channels
-#13: Scalability and Availability
-#14: Information Security
-#15: Futures I
-#16: Futures II
-#17: Macros
-#18: Reflecting on Rust
+01: Welcome to CS 110L(Finished)
+02: Memory Safety(Finished)
+03: Error Handling(Finished)
+04: Object Oriented Rust(Finished)
+05: Traits and Generics(Finished)
+06: Smart Pointers(Finished)
+07: Pitfalls in Multiprocessing
+08: Google Chrome
+09: Intro to Multithreading
+10: Shared Memory
+11: Synchronization
+12: Channels
+13: Scalability and Availability
+14: Information Security
+15: Futures I
+16: Futures II
+17: Macros
+18: Reflecting on Rust
