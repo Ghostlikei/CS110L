@@ -14,7 +14,35 @@ fn main() {
     let target = &args[1];
 
     // TODO: Milestone 1: Get the target Process using psutils::get_target()
-    unimplemented!();
+    // unimplemented!();
+    let process_get = ps_utils::get_target(target);
+    if !process_get.is_ok() {
+        println!("Failed to call ps or pgrep");
+        std::process::exit(1);
+    }
+
+    let pid = process_get.unwrap();
+    if pid.is_none() {
+        println!("Target {} did not match any running PIDs or executables", target);
+        std::process::exit(1);
+    }
+    else {
+        let cur_process = pid.unwrap();
+        cur_process.print();
+
+        let process_children = ps_utils::get_child_processes(cur_process.pid);
+        if process_children.is_ok() {
+            for _child in process_children.unwrap() {
+                _child.print();
+            }
+        }
+        
+    }
+
+
+    
+
+
 }
 
 #[cfg(test)]
