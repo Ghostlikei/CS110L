@@ -20,8 +20,8 @@ Created on 9/29
 - [Week 1 Exercises: Hello world](https://reberhardt.com/cs110l/spring-2020/assignments/week-1-exercises/)(Finished)
 - [Week 2 Exercises: Ownership and structs](https://reberhardt.com/cs110l/spring-2020/assignments/week-2-exercises/)(Finished)
 - [Week 3 Exercises: Error handling, I/O, and traits](https://reberhardt.com/cs110l/spring-2020/assignments/week-3-exercises/)(Finished)
-- [Project 1: The DEET Debugger](https://reberhardt.com/cs110l/spring-2020/assignments/project-1/)
-- [Week 4 Exercises: Checking in](https://reberhardt.com/cs110l/spring-2020/assignments/week-4-exercises/)
+- [Project 1: The DEET Debugger](https://reberhardt.com/cs110l/spring-2020/assignments/project-1/)(Finished)
+- [Week 4 Exercises: Checking in](https://reberhardt.com/cs110l/spring-2020/assignments/week-4-exercises/)(Nothing to do)
 - [Week 5 Exercises: Farm meets multithreading](https://reberhardt.com/cs110l/spring-2020/assignments/week-5-exercises/)
 - [Week 6 Exercises: Sharing Data by Communicating](https://reberhardt.com/cs110l/spring-2020/assignments/week-6-exercises/)
 - [Project 2: Balancebeam](https://reberhardt.com/cs110l/spring-2020/assignments/project-2/)
@@ -40,15 +40,15 @@ Created on 9/29
 
 - 06: Smart Pointers(Finished)
 
-- 07: Pitfalls in Multiprocessing
+- 07: Pitfalls in Multiprocessing(Finished)
 
-- 08: Google Chrome
+- 08: Google Chrome(Finished)
 
-- 09: Intro to Multithreading
+- 09: Intro to Multithreading(Finished)
 
-- 10: Shared Memory
+- 10: Shared Memory(Finished)
 
-- 11: Synchronization
+- 11: Synchronization(Finished? Systematically in CSAPP)
 
 - 12: Channels
 
