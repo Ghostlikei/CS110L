@@ -1,8 +1,8 @@
 use std::collections::VecDeque;
-#[allow(unused_imports)]
+// #[allow(unused_imports)]
 use std::sync::{Arc, Mutex};
 use std::time::Instant;
-#[allow(unused_imports)]
+// #[allow(unused_imports)]
 use std::{env, process, thread};
 
 /// Determines whether a number is prime. This function is taken from CS 110 factor.py.
@@ -72,11 +72,27 @@ fn main() {
     let start = Instant::now();
 
     // TODO: call get_input_numbers() and store a queue of numbers to factor
-
+    let target_vec: VecDeque<u32> = get_input_numbers();
+    let length = target_vec.len();
     // TODO: spawn `num_threads` threads, each of which pops numbers off the queue and calls
+    let mut threads = Vec::with_capacity(length);
+    let nums_mutex = Arc::new(Mutex::new(target_vec));
+    for i in 0..length{
+        let nums_mutex_clone = Arc::clone(&nums_mutex);
+        threads.push(thread::spawn(move || {
+            let num = nums_mutex_clone.lock().unwrap().pop_front().unwrap();
+            factor_number(num);
+        }
+        ))
+
+    }
+
     // factor_number() until the queue is empty
 
     // TODO: join all the threads you created
+    for thread in threads {
+        thread.join().unwrap();
+    }
 
     println!("Total execution time: {:?}", start.elapsed());
 }
