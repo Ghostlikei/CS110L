@@ -23,7 +23,7 @@ Created on 9/29
 - [Project 1: The DEET Debugger](https://reberhardt.com/cs110l/spring-2020/assignments/project-1/)(Finished)
 - [Week 4 Exercises: Checking in](https://reberhardt.com/cs110l/spring-2020/assignments/week-4-exercises/)(Nothing to do)
 - [Week 5 Exercises: Farm meets multithreading](https://reberhardt.com/cs110l/spring-2020/assignments/week-5-exercises/)(Finished in 15 minutes XD)
-- [Week 6 Exercises: Sharing Data by Communicating](https://reberhardt.com/cs110l/spring-2020/assignments/week-6-exercises/)
+- [Week 6 Exercises: Sharing Data by Communicating](https://reberhardt.com/cs110l/spring-2020/assignments/week-6-exercises/)(Ongoing)
 - [Project 2: Balancebeam](https://reberhardt.com/cs110l/spring-2020/assignments/project-2/)
 
 ### Lectures
@@ -50,9 +50,9 @@ Created on 9/29
 
 - 11: Synchronization(Finished? Systematically in CSAPP)
 
-- 12: Channels
+- 12: Channels(Finished)
 
-- 13: Scalability and Availability
+- 13: Scalability and Availability(Finished)
 
 - 14: Information Security
 
