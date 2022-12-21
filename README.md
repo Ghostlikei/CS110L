@@ -24,7 +24,7 @@ Created on 9/29
 - [Week 4 Exercises: Checking in](https://reberhardt.com/cs110l/spring-2020/assignments/week-4-exercises/)(Nothing to do)
 - [Week 5 Exercises: Farm meets multithreading](https://reberhardt.com/cs110l/spring-2020/assignments/week-5-exercises/)(Finished in 15 minutes XD)
 - [Week 6 Exercises: Sharing Data by Communicating](https://reberhardt.com/cs110l/spring-2020/assignments/week-6-exercises/)(Finished)
-- [Project 2: Balancebeam](https://reberhardt.com/cs110l/spring-2020/assignments/project-2/)
+- [Project 2: Balancebeam](https://reberhardt.com/cs110l/spring-2020/assignments/project-2/)(Working...)
 
 ### Lectures
 
@@ -54,12 +54,12 @@ Created on 9/29
 
 - 13: Scalability and Availability(Finished)
 
-- 14: Information Security
+- 14: Information Security(Finished)
 
-- 15: Futures I
+- 15: Futures I(Finished)
 
-- 16: Futures II
+- 16: Futures II(Finished)
 
-- 17: Macros
+- 17: Macros(Finished? Too hard, planning to learn more in **compilers** next term)
 
-- 18: Reflecting on Rust
+- 18: Reflecting on Rust(Finished)
